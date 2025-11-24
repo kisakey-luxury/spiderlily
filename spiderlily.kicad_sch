@@ -4857,16 +4857,8 @@
 		(uuid "fcd9a01a-b5b1-4ee7-a86a-0f1af27da208")
 	)
 	(no_connect
-		(at 130.81 44.45)
-		(uuid "00da0f17-67f6-458a-a3dc-e4e27d40fae2")
-	)
-	(no_connect
 		(at 275.59 62.23)
 		(uuid "07b48503-7fd9-402b-b068-1b5054fd8eb2")
-	)
-	(no_connect
-		(at 130.81 39.37)
-		(uuid "07e3fa03-f995-4980-8312-3dfb860a8dcc")
 	)
 	(no_connect
 		(at 275.59 67.31)
@@ -5229,6 +5221,16 @@
 			(type default)
 		)
 		(uuid "1dcabd09-c001-4667-8b16-61ecd5bf8c2f")
+	)
+	(wire
+		(pts
+			(xy 130.81 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0f886a-12fa-4a81-953b-04ed5855435a")
 	)
 	(wire
 		(pts
@@ -5872,6 +5874,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 44.45) (xy 105.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52320204-b7c8-49f1-927e-40ae9141ce9e")
+	)
+	(wire
+		(pts
 			(xy 189.23 158.75) (xy 189.23 160.02)
 		)
 		(stroke
@@ -5959,6 +5971,16 @@
 			(type default)
 		)
 		(uuid "5860aa8a-dc2c-48db-af73-ce13b32210a9")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 132.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5881ac46-37e6-472c-ae9b-7af7dfaa87ef")
 	)
 	(wire
 		(pts
@@ -6482,16 +6504,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d8031f-0d99-47e1-b5de-1e1f55cfbfe1")
-	)
-	(wire
-		(pts
 			(xy 260.35 147.32) (xy 269.24 147.32)
 		)
 		(stroke
@@ -6782,16 +6794,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 44.45) (xy 105.41 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fcae830-edc6-4224-aae5-d6f11fd027a8")
-	)
-	(wire
-		(pts
 			(xy 180.34 158.75) (xy 180.34 160.02)
 		)
 		(stroke
@@ -7079,6 +7081,16 @@
 			(type default)
 		)
 		(uuid "bd83bc4c-3fec-42b1-8ff4-9a1402fd54e3")
+	)
+	(wire
+		(pts
+			(xy 104.14 39.37) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc924d6-407e-494f-a82e-2c8297bc07cc")
 	)
 	(wire
 		(pts
@@ -8284,6 +8296,28 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape input)
+		(at 132.08 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32de856c-5432-4bb1-b41c-161852462d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.9076 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL_IN"
 		(shape input)
 		(at 199.39 34.29 0)
@@ -9032,6 +9066,28 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 104.14 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc8b7b81-0ee0-46c0-927f-b6778a74f93d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.3124 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row0"
 		(shape input)
 		(at 275.59 59.69 0)
@@ -9364,22 +9420,22 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 104.14 39.37 180)
+		(at 132.08 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fe2e56ff-e66e-49a7-8c13-5f45bea587ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.3124 39.37 0)
+			(at 137.9076 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12099,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 172.72 83.82 0)
 			(effects
 				(font
